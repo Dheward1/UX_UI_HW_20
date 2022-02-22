@@ -1,0 +1,121 @@
+.jumbotron {
+    background-color: black;
+    color: white;
+    margin-bottom: 0%;
+    padding: 8em;
+}
+#navMain {
+    background-color: #252422;
+    background: none;
+    margin-left: 4em;
+}
+.nav .nav-link {
+    color:#0062FF;
+}
+
+h1 {
+   padding: 0%;
+}
+h3 {
+    padding: 20px 10px 0px 0px;
+}
+h4 {
+    padding: 1em;
+}
+p {
+    padding: 1em;
+}
+img {
+    padding: 20px 0px 10px 0px;
+}
+
+#square1 {
+   background-color: #ADB5BD;
+   padding: 2em;
+   margin-bottom: 0%;
+}
+#square2 {
+    background-color: #252422;
+    padding: 5em;
+    margin-bottom: 0%;
+    color: White;
+}
+#square3 {
+    background-color: #DEE2E6;
+    padding: 5em;
+}
+#square3 h5 {
+    padding-top: 75px;
+}
+#square3 h3 {
+    padding-bottom: 75px;
+}
+#square4 {
+    background-color: #343A40;
+    color: #CED4DA;
+    padding: 5em;
+}
+#square4 h2{
+    padding: 1em;
+    padding-top: 3em;
+}
+.square4 h3 {
+    color: white;
+    padding-bottom: 100px;
+}
+.a4 {
+    border: solid 5px #94B9AF;
+    background-color: white;
+    color: black;
+}
+.a4 h1 {
+    color: #BB4430;
+    padding: 1em;
+}
+.a4 h3 {
+    color: #94B9AF;
+    padding-left: 1em;
+    padding-bottom: 0%;
+}
+.a4 h4 {
+    color: #BB4430;
+    padding-bottom: 0%;
+}
+.a4 p {
+    padding-bottom: 60px;
+}
+.square5 {
+    padding: 1em;
+    background-color: #ADB5BD;
+}
+.square5 h3 {
+    padding-top: 2em;
+}
+.square5 img {
+    object-fit: none;
+    padding-bottom: 5em;
+    margin: 10px;
+}
+#square6 {
+    background-color: #252422;
+    padding: 1em;
+    color: white;
+}
+#square6 img {
+    margin: 1em;
+}
+#square7 {
+    padding: 3em;
+    background-color: #F8F9FA;
+}
+#square7 img{
+    padding: 4em;
+}
+.square8 {
+    padding: 5em;
+    background-color: #252422;
+    color: white;
+}
+.square8 h1 {
+    padding-bottom: 2em;
+}

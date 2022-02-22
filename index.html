@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>HW20 Bootstrap</title>
+    <!-- NavBar Component -->
+    <nav id="navMain flex-column">
+        <nav class="nav flex-column fixed-top">
+            <a class="nav-link active" href="#square1">Overview</a>
+            <a class="nav-link" href="#square3">Empathize</a>
+            <a class="nav-link" href="#square4">Ideation</a>
+            <a class="nav-link" href="#square6">Testing</a>
+            <a class="nav-link" href="#square7">Prototype</a>
+        </nav>
+    </nav>
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md align-self-center">
+                    <h1 class="display-2">Ballet West</h1>
+                    <h1 class="display-4">Web Responsive Redesign</h1>
+                </div>
+                <div class="col-md">
+                    <img src="Images\bwMockup.png" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</head>
+
+<body>
+    <!-- Square 1 -->
+    <div id="square1">
+        <div class="container">
+            <div class="col-lg align-self-center">
+                <h1 class="text-center"> Project Overview</h1>
+                <p>Working as a UX designer on this project with two of my classmates, Em and Jean, We were tasked with
+                    redesigning a non-profit website. We wanted a challenge so we chose Ballet West based on Em’s
+                    negative
+                    experience with the website in the past.</p>
+                <h1 class="text-center">Why are we redesigning Ballet West?</h1>
+                <p>balletwest.org has a confusing navigation system, underwhelming visuals, a convoluted ticket buying
+                    and
+                    money donation process. </p>
+                <h1 class="text-center">Organization Description</h1>
+                <p>Ballet West is an American ballet company based in Salt Lake City, Utah. It was founded in 1963 as
+                    the
+                    Utah Civic Ballet by Willam F. Christensen, the company's first artistic director, and Glenn Walker
+                    Wallace, who served as its first president.</p>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Role</h2>
+                </div>
+                <div class="col">
+                    <h2>Keywords</h2>
+                </div>
+                <div class="col">
+                    <h2>Category</h2>
+                </div>
+                <div class="col">
+                    <h2>Design Tools</h2>
+                </div>
+                <div class="col">
+                    <h2>Year</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-left">UX Designer</p>
+                </div>
+                <div class="col">
+                    <p>Redesign</p>
+                </div>
+                <div class="col">
+                    <p>Non-Profit, Ballet</p>
+                </div>
+                <div class="col">
+                    <p>Figma, Invision, Miro</p>
+                </div>
+                <div class="col">
+                    <p>2021</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Square 2 -->
+    <div id="square2">
+        <div class="container">
+            <div class="col-lg align-self-center">
+                <h1 class="text-center">Current State</h1>
+                <p>We first did a Heuristic Evaluation of the current website to become familiar with the product we
+                    were going to be redesigning. We found a lot that didn't follow any heuristic rules such as
+                </p>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <img src="Images\bwRedline.png" class="img-fluid">
+                    <img src="Images\bwRedlineEval.png" class="img-fluid align-self-start">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Square 3 -->
+    <div id="square3">
+        <div class="container">
+            <div class="col-lg align-self-center">
+                <h1 class="text-center">Empathize</h1>
+                <p>We tested six particiapants on different tasks for the current website to gather any user insights.
+                    Our
+                    User Observations gave us qualitative data we could use later in the ideation phase. We wanted to
+                    see
+                    how users interacted with the current website to pick up on behaviors and hear them think out loud
+                    while
+                    we had them do some tasks to mine for pain points.
+                </p>
+            </div>
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <p class="lead">“The link to ‘Click here for single tickets’ is the same as the link below. It's
+                            confusing
+                            and unnecessary”</p>
+                    </div>
+                    <div class="col">
+                        <p class="lead">“Not every link looks the same and the gold makes me wonder if it is a link or a
+                            headline.”
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="lead">“They clearly want you to sign up for a subscription. But what is the
+                            subscription?”
+                        </p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <p class="lead">“The fonts look really funny. I don't know which are links.”</p>
+                    </div>
+                    <div class="col">
+                        <p class="lead">"Single tickets is mentioned too many times without quickly knowing where to
+                            click.”
+                        </p>
+                    </div>
+                    <div class="col">
+                        <p class="lead">“Was expecting a lot of videos of performances”</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-4">
+                        <p>To better get to know our user we took the data we found in the User
+                            Observations and
+                            brainstormed on our empathy map to better understand our user and to help come up with our
+                            problem statement later on
+                        </p>
+                    </div>
+                    <div class="col-6">
+                        <img src="Images\bwEmpathy.png">
+                    </div>
+                    <div class="row align-items-end">
+                        <div class="col-4">
+                            <p>After we had a solid understanding of the problems facing the current website we wanted
+                                to
+                                interview users to gather insights for WHY a user would attend the Ballet, Donate and
+                                how we
+                                might be able to increase donor participation. We then synthesized this data into an
+                                affinity diagram.</p>
+                        </div>
+                        <div class="col-6">
+                            <img src="Images\bwSticky.png">
+                        </div>
+                    </div>
+                    <div class="row align-items-start">
+                        <h5>Hypothesis</h5>
+                        <h3>"We believe we can help donor engagement with BalletWest.org and the visibility within the
+                            ballet community as a whole by adding improved visuals to the website, Video highlights and
+                            Spotlighting dancers."</h3>
+                        <p>After analyzing all the data we gathered from our research we were introduced to Julie
+                            Hansen. Julie was our ideal user, our decision making from here on out would be centered on
+                            what would meet Julie’s wants and needs. Our main goal was to please Sarah and provide her
+                            with a tool that she would enjoy.
+                        </p>
+                        <img src="Images\bwPersona.png" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Square 4 -->
+    <div id="square4">
+        <div class="container">
+            <div class="row">
+                <h5>Problem Statement</h5>
+                <h3>"The current Ballet West website does not showcase their dancers, productions, nor their creative
+                    processes in a visually appealing way. This leads to lower engagement with the website and causes
+                    frustustrations to possible donors and ticket-buyers."
+                </h3>
+            </div>
+            <h2 class="text-center">Ideas for a solution</h2>
+            <div class="a4">
+                <div class="container">
+                    <div class="row row-cols-2">
+                        <div class="col">
+                            <h1 class="display-4">01</h1>
+                            <h4>Issue</h4>
+                            <p>The gold on white font failed the accesssibilty test</p>
+                            <h3>Solution</h3>
+                            <p>Create a color palette that contrasts better</p>
+                        </div>
+                        <div class="col">
+                            <h1 class="display-4">02</h1>
+                            <h4>Issue</h4>
+                            <p>Font usage was wildly inconsistant</p>
+                            <h3>Solution</h3>
+                            <p>1. Create design system to stay consistant</br>
+                                2. Use no more than two fonts</br>
+                                3. Maintain consistant capitalization rules</p>
+                        </div>
+                        <div class="col">
+                            <h1 class="display-4">03</h1>
+                            <h4>Issue</h4>
+                            <p>The website did not translate well to the mobile version</p>
+                            <h3>Solution</h3>
+                            <p>1. Overhaul entire mobile menu</br>
+                                2. Fix icons to be consistant</br>
+                                3. Redesign “Updates & News” section to look more like a news feed</p>
+                        </div>
+                        <div class="col">
+                            <h1 class="display-4">04</h1>
+                            <h4>Issue</h4>
+                            <p>The gold on white font failed the accesssibilty test</p>
+                            <h3>Solution</h3>
+                            <p>1. Reorganize and prioritize most important information as a primary link</br>
+                                2. Clean house. There is a lot of dead links or unimportant links that can be omited.
+                                Especially with the donation links</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Square 5 -->
+    <div class="square5">
+        <div class="container">
+            <div class="row align">
+                <h3>User Flows</h3>
+                <p>We determined that the most common activity on the Ballet West website would be to purchase tickets
+                    and to donate, so here, we established two flows that we would reference to create our prototypes.
+                </p>
+                <img src="Images\bwUserflow.png">
+                <h3>Sketches</h3>
+                <p>From our heuristic evaluation, we knew that the mobile version of the original website was not
+                    great... so we really wanted to go with the 'mobile first' mindset. We tried to design everything in
+                    cards so it will translate easily between mobile and desktop versions of the website.</p>
+                <img src="Images\sketch1.png" class="img-fluid align-self-start">
+                <img src="Images\sketch2.png" class="img-fluid align-self-start">
+                <img src="Images\sketch3.png" class="img-fluid align-self-start">
+                <img src="Images\sketch4.png" class="img-fluid align-self-start">
+                <img src="Images\sketch5.png" class="img-fluid align-self-start">
+                <h3>Style Guide</h3>
+                <p>We wanted to honor the original brand colors of Ballet West since they did recently do a rebranding,
+                    so we kept the black, gold, and white. But to help increase readability, we changed the background
+                    color to black, and tried to use the gold really as an accent color instead of it being the primary
+                    header color. We chose one display font as the large header, and the rest will be a variation of the
+                    sans serif font, Lato. </p>
+                <img src="Images\styleTile.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- Square 6 -->
+    <div id="square6">
+        <div class="container">
+            <div class="row align">
+                <h3>Wireframes and Testing</h3>
+            </div>
+            <div class="row align">
+                <p>We wireframed two different Nav menus to test out to see if our users
+                    preferred the larger or smaller icons.</p>
+                <img src="Images\bwLofi1.png" class="align-self-start">
+                <img src="Images\bwLofi2.png" class="align-self-start">
+            </div>
+        </div>
+    </div>
+
+    <!-- Square 7 -->
+    <div id="square7">
+        <div class="container">
+            <div class="row align">
+                <h1 class="display-3">Final Prototype</h1>
+                <img src="Images\bwHifi.png" class="align-self-start">
+                <img src="Images\bwHifiMobile.png" class="align-self-end">
+            </div>
+        </div>
+    </div>
+
+    <!-- Square 8 -->
+    <div class="square8">
+        <div class="container">
+            <div class="col-lg align-self-center">
+                <h1 class="text-center">Final Thoughts</h1>
+                <h3 class="text-left">What we learned</h3>
+                <ul>
+                    <li> Interviewing more qualified candidates during our research would have provided better insights.
+                    </li>
+                    <li> Coming up with a whole design system is a lot of work! Wish we had more time to spend on this
+                        before building out our wireframes. </li>
+                    <li>Testing is crucial and we definitely could have gone a dozen more sessions testing and iterating
+                        before getting to a place that was ready to go live</li>
+                </ul>
+            </div>
+            <div class="col-lg align-self-center">
+                <h3 class="text-left">Moving Forward</h3>
+                <ul>
+                    <li>Revisiting User interviews with qualified candidates to discover better insights</li>
+                    <li>Iterate on the app and test each function before moving to Hi-Fi</li>
+                    <li>Develop and test the Donation portal</li>
+                    <li>Document more to illustrate our process</li>
+                </ul>
+
+            </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+
+</html>
